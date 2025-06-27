@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "versets",
+  "info": {
+    "singularName": "verset",
+    "pluralName": "versets",
+    "displayName": "Verset"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sourate": {
+      "type": "integer"
+    },
+    "verset": {
+      "type": "integer"
+    },
+    "texte_arabe": {
+      "type": "text"
+    },
+    "traduction": {
+      "type": "text"
+    },
+    "traduction_modifiee": {
+      "type": "text"
+    },
+    "commentaire": {
+      "type": "text"
+    },
+    "liens_associes": {
+      "type": "json"
+    }
+  }
+}
